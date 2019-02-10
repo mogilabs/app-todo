@@ -1,0 +1,5 @@
+<mat-list class="todo-list" role="list">
+  <mat-list-item role="listitem" *ngFor="let todo of todos">
+    <app-todo (click)="onTodoClick(todo.id)" [todo]="todo"></app-todo>
+  </mat-list-item>
+</mat-list>

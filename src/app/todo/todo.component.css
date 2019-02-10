@@ -1,0 +1,18 @@
+.todo {
+  /*color: white;*/
+  /*background: #555;*/
+  /*border-bottom: 1px solid #222;*/
+  /*padding: 10px;*/
+}
+
+.todo.completed {
+  background: #333;
+}
+
+.todo.completed {
+  text-decoration: line-through;
+}
+.todo.completed:before {
+  content: "\2713";
+  color: white;
+}

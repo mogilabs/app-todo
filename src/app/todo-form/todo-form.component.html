@@ -1,0 +1,8 @@
+<form (ngSubmit)="onSubmit(name)">
+  <mat-form-field>
+    <input matInput placeholder="Todo" name="name" [(ngModel)]="name" autocomplete="off">
+  </mat-form-field>
+  <div mat-action-row>
+    <button mat-list-item mat-button type="submit"> Save </button>
+  </div>
+</form>
